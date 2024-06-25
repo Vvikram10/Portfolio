@@ -1,0 +1,361 @@
+body{
+    /* background-color: black; */
+    background-color: rgb(11, 26, 51);
+    color: white !important;
+    scroll-behavior: smooth;
+}
+@keyframes wavingStar {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 25% 50%;
+    background-color: black;
+  }
+  50% {
+    background-position: 50% 100%;
+    background-color: rgb(11, 26, 51); 
+  }
+  75% {
+    background-position: 75% 50%;
+    background-color: black;
+  }
+}
+
+
+.waving-star-background {
+  animation: wavingStar 60s infinite linear;
+  background: 
+    radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.5) 1px, transparent 1px); /* Twinkling stars */
+  background-size: 400% 400%, 100px 100px; /* Adjust the size of twinkling stars as needed */
+  background-color: rgb(11, 26, 51);
+  /* background-color: black; */
+  color: white !important;
+  overflow: hidden;
+  min-height: 100vh; /* Ensure full viewport height */
+  min-width: 100vw; /* Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.navborder:hover{
+    border-bottom: 2px solid yellow;
+}
+@media (max-width: 768px) {
+  .home{
+    margin-top: 100px;
+  }
+}
+
+
+
+/* home section */
+/* .home .right .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+} */
+ .home{
+    height: 80vh;
+ }
+.home .right .image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 2px solid red;
+    animation: image 3s infinite ;
+}
+@keyframes image{
+    0%{
+        border-color: blue;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px blue;
+    }
+    25%{
+        border-color: yellowgreen;
+        box-shadow: 10px 10px 100px 50px yellowgreen ;
+
+    }
+    50%{
+        border-color:  rgb(12, 12, 199);
+        transform: translate(0,10px);
+        box-shadow: 10px 10px 100px 50px  rgb(12, 12, 199);
+    }
+    75%{
+        border-color:  rgb(130, 217, 160);
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+    100%{
+        border-color:  rgb(50, 55, 205);
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+
+    }
+}
+
+/* About */
+.margin-top-about{
+  margin-top: 200px;
+}
+
+
+  @media (max-width: 572px) {
+    .margin-top-about {
+      margin-top: 360px;
+    }
+  }
+
+/* 
+  @media (max-width: 990px) {
+    .ex-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  } */
+
+/* Experience */
+.ex{
+    background: rgb(35, 34, 31);
+    
+    /* backdrop-filter: blur(10px); */
+    animation: experience 3s infinite ;
+}
+@keyframes experience{
+    0%{
+        border-color: yellowgreen;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 5px yellowgreen;
+    }
+    25%{
+        border-color: lightcoral;
+        transform: translate(0,5px);
+        box-shadow: 10px 10px 100px 5px lightcoral ;
+
+    }
+    50%{
+        border-color:  rgb(12, 12, 199);
+        transform: translate(0,10px);
+        box-shadow: 10px 10px 100px 5px  rgb(12, 12, 199);
+    }
+    75%{
+        border-color:  rgb(16, 60, 31);
+        transform: translate(0,5px);
+        box-shadow: 10px 10px 100px 5px rgb(16, 60, 31);
+    }
+    100%{
+        border-color:  lightsalmon;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 5px lightsalmon;
+
+    }
+}
+
+@media (max-width: 572px) {
+    .margin-top {
+      margin-top: 250px;
+    }
+  }
+
+
+  @media (max-width: 990px) {
+    .ex-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  /* skills  */
+  .Skills .items .item{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: 10px 5px 10px 5px green;
+  } 
+  .Skills .items .item img{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 1200px) and (min-width: 576px) {
+    .custom-img {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .custom-img {
+      max-width: 80%;
+    }
+  }
+  @media (max-width: 575px) {
+    .items {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  /* Contacts */
+  .contact-icon{
+    height: 40vh;
+  }
+  .contact-icon .items{
+    background-color: black;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid green;
+  }
+  .contact-icon .items:hover{
+    background-color: lightgreen;
+    border: 3px solid green;
+    /* box-shadow: 2px 2px 2px 2px lightsalmon; */
+  }
+  .contact-icon .items .icons{
+    font-size: 2rem;
+  }  
+
+
+  /* About Timeline */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .event {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .timeline-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .timeline-content {
+    flex: 1;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .date {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .course-image img {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* project styles */
+.card {
+  border: 1px solid red;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px lightcoral;
+}
+
+.img {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+/* Mobile devices (up to 576px) */
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+/* Projects.css */
+
+.project-card {
+  height: 100%; /* Ensure the card takes full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    height: auto; /* Auto height for smaller screens */
+  }
+
+  .project-image {
+    height: 150px; /* Adjust image height for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .project-image {
+    height: 120px; /* Further adjust image height for very small screens */
+  }
+}
+
+
+/* Tablets (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+/* Laptops and desktops (769px and up) */
+@media (min-width: 769px) {
+  .card {
+    width: 100%;
+  }
+}

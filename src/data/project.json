@@ -1,0 +1,26 @@
+[
+    {
+        "key":1,
+        "title":"FlyHigh Aviation",
+        "imagesrc":"project_image/log.png",
+        "description":"Flyhigh Aviation project which is based on Airline reservation system and enhance the booking process for airlines.",
+        "demo":"https://vvikram.pythonanywhere.com/",
+        "source":"https://github.com/Vvikram10/Flyhigh_Aviation"
+    },
+    {
+        "key":2,
+        "title":"Titanic Survival Prediction",
+        "imagesrc":"project_image/titanic.jpeg",
+        "description":"This project focuses on building a predictive model to determine the survival of passengers on the Titanic .",
+        "demo":"https://github.com/Vvikram10/titanic/blob/main/mytitanic/NewTitanic.ipynb%20-%20Colaboratory.pdf",
+        "source":"https://github.com/Vvikram10/titanic"
+    },
+    {
+        "key":3,
+        "title":"Portfolio",
+        "imagesrc":"images/vik_pic.jpeg",
+        "description":"Creating a portfolio using React is a great way to showcase your skills and projects in a dynamic and interactive manner.",
+        "demo":"https://vik009portfolio.netlify.app",
+        "source":"https://github.com/Vvikram10/porfolio"
+    }
+]

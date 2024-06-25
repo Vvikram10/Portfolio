@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "imgrc":"mtaimg.jpeg",
+        "role":"Python Full Stack Developer-Intern",
+        "organisation":"Microdot Tech Aspire Solution pvt Ltd",
+        "duration":"Feb-2024 to May-2024",
+        "location":"Noida UP",
+        "project":"FlyHigh Aviation (Project)",
+        "technology":["Python with Django framework",
+        "HTML CSS Javascript Bootstrap"
+    ]
+    }
+]

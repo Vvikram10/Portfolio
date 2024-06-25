@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "title": "AKS UNIVERSITY",
+      "course": "Master of Computer Application",
+      "session": "June/2022 - june/2024",
+      "place": "Satna MP",
+      "workicon": "Work"
+    },
+    {
+      "id": 2,
+      "title": "APS UNIVERSITY",
+      "course": "Bachelor of Computer Application",
+      "session": "June/2019 - June/2022",
+      "place": "Rewa MP",
+      "workicon": "Work"
+    },
+    {
+      "id": 3,
+      "title": "Govt. Martand Hr Sec School No 2 ",
+      "course": " XII Higher Secondary",
+      "session": "July/2017 - May/2018",
+      "place": "Rewa MP",
+      "workicon": "Work"
+    },
+    {
+      "id": 4,
+      "title": "Govt. Martand Hr Sec School No 2 ",
+      "course": " X High School ",
+      "session": "July/2015 - May/2016",
+      "place": "Rewa MP",
+      "workicon": "Work"
+    }
+  ]
+  
+
+  
